@@ -1,0 +1,88 @@
+.welcomePage{
+    // height: 600px;
+    // width: 100vw;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: flex-start;
+    // align-items: center;
+
+    #welcome-bg{
+        width: 100%;
+        height: 100%;
+        background-image: url('https://communications.dartmouth.edu/sites/communications.dartmouth.edu/files/25baker_copy.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.4;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1000;
+
+        // -webkit-filter: blur(3px);
+        // -moz-filter: blur(3px);
+        // -o-filter: blur(3px);
+        // -ms-filter: blur(3px);
+        filter: blur(3px);
+    }
+
+    .welcome-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 6%;
+        // width: 100%;
+        .welcomeCourseList{
+            // flex: 4;
+            // margin: 5% 5%;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // width: 100%;
+            .course-list-item-card{
+                background-color: white;
+                opacity: 1;
+                box-shadow: 0 0 15px rgba(0,0,0,0.11);
+                margin: 5% 0px;
+                width: 100%;
+            }
+        }
+
+        .welcome-page-content{
+            background: rgba(255,255,255,0.2);
+            box-shadow: 0 0 55px rgba(255,255,255,0.25);
+            border-radius: 15px;
+            padding: 0px 55px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+
+            h1{
+                font-size: 62px;
+            }
+            p{
+                font-size: 24px;
+            }
+            #sign-in-sign-up-buttons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 300px;
+                padding: 0 20px;
+                margin-top: 40px;
+                a{
+                    padding: 5px 40px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+}

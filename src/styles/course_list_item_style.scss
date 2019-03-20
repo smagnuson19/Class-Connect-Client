@@ -1,0 +1,54 @@
+.course-list-item-card{
+    width: inherit;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+            flex-wrap: wrap;
+
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.11);
+    margin: 20px 0px;
+    box-sizing: border-box;
+
+    .card-course-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h1{
+            font-size: 18.5px;
+        }
+        .card-course-score {
+            background-color: $primary;
+            border-radius: 20px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            font-size: 18px;
+            margin-right: 40px;
+        }
+
+        .card-course-info{
+            .card-course-sub-info{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                #instructor, #period{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    #card-add-course{
+
+    }
+
+    #card-remove-course{
+
+    }
+}

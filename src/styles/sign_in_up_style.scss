@@ -1,0 +1,40 @@
+.sign-in-up-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  padding: 0 5%;
+  height: 100%;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  h1{
+      margin:20px 0px;
+      align-self: flex-start;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      input {
+          padding: 5px 2%;
+          margin: 5px 0px;
+          width: 96%;
+          height: 20px;
+          border-radius: 5px;
+          border: none;
+          box-shadow: 0 0 1px black;
+      }
+      input:focus{
+          outline: none;
+          box-shadow: 0 0 5px darken($primary, 20%);
+      }
+      .submit {
+        width: 100px;
+        margin: 20px 0px;
+        align-self: flex-start;
+      }
+  }
+}

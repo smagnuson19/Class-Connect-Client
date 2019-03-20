@@ -1,0 +1,24 @@
+// $bg-light-blue: rgb(92, 124, 149);
+$bg-gradient-top:rgb(230, 230, 230);
+$bg-gradient-bottom:rgb(245, 245, 245);
+
+$primary:rgba(63,81,181 ,1);
+
+
+body,html {
+  font-family: "Open Sans", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import './welcome_style';
+@import './nav_bar_style';
+@import './course_list_item_style';
+@import './course_list_style';
+@import './home_style';
+@import './course_style';
+@import './user_style';
+@import './sign_in_up_style'

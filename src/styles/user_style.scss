@@ -1,0 +1,14 @@
+.user-container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  // margin-left: 4rem;
+  // margin-right: 4rem;
+  // margin-top: 2rem;
+
+  #user-title {
+    color: black;
+  }
+
+}
